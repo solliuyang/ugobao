@@ -1,0 +1,82 @@
+body{
+	
+}
+.container{
+	
+}
+#header{
+	
+}
+#topbar{
+
+}
+#userinfo{
+	float: right;
+}
+#logo{
+	height: 120px;
+	background: #999; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00aaaa', endColorstr='#005555'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#00aaaa), to(#005555)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #00aaaa,  #005555); /* for firefox 3.6+ */
+}
+#ugobao-logo{
+	background-image: url(../img/ugobao-logo.png);
+	background-repeat:no-repeat;
+    background-position:left;
+	height: 120px;
+	width: 320px;
+	display: block;
+	float: left;
+}
+#ugobao-search{
+
+}
+
+#ugobao-nav{
+	background-image: none;
+	background-color: #ffaa00;
+	background-repeat:no-repeat;
+    background-position:left;
+    border-radius: 0px;
+    border:0px;
+    height: 40px;
+    display: block;
+    margin-bottom: 20px;
+}
+#ugobao-nav-inner{
+	background-image: url(../img/ugobao-nav.png);
+	background-repeat:no-repeat;
+	height: 40px;
+    display: block;
+}
+#ugobao-nav ul{
+	padding-left: 100px;
+	height: 40px;
+}
+#ugobao-nav ul li{
+	float: left;
+	line-height: 40px;
+}
+#ugobao-nav ul a{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#ugobao-nav ul a:hover{
+	background-color: #000;
+	color: #fff;
+}
+#ugobao-search,#ugobao-cart{
+	padding-top: 45px;
+	margin-left: 40px;	
+}
+#ugobao-cart{
+	position: relative;
+}
+.ugobao-dropdown-menu{
+	position: absolute;
+	z-index: 9;
+	background-color: #fff;
+	padding: 5px;
+	right: 0px;
+}
